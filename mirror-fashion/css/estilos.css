@@ -23,7 +23,7 @@ header {
    height: 34px;
  }
 
- .menu-opcoes ul {
+.menu-opcoes ul {
    font-size: 15px;
  }
 
@@ -46,8 +46,8 @@ body {
   width: 940px;
 }
 
- .busca,
- .menu-departamentos {
+.busca, 
+.menu-departamentos {
    background-color: #dcdcdc;
    font-weight: bold;
    text-transform: uppercase;
@@ -62,24 +62,24 @@ body {
    padding-bottom: 10px;
  }
 
- .busca h2,
- .busca form,
- .menu-departamentos h2 {
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
    margin: 10px;
  }
 
- .menu-departamentos li {
+.menu-departamentos li {
    background-color: white;
    margin-bottom: 1px;
    padding: 5px 10px;
  }
 
- .menu-departamentos a {
+.menu-departamentos a {
    color: #333333;
    text-decoration: none;
  }
 
- .busca input[type=search] {
+.busca input[type=search] {
      width: 170px;
  }
 
@@ -103,7 +103,7 @@ body {
    background-color: #dcdcf5;
  }
 
- .painel li {
+.painel li {
    display: inline-block;
    vertical-align: top;
    width: 140px;
@@ -118,7 +118,7 @@ body {
    margin-bottom: 10px;
  }
 
- .painel a {
+.painel a {
    color: #333;
    font-size: 14px;
    text-align: center;
@@ -136,13 +136,13 @@ footer .container {
    position: relative;
  }
 
- .social {
+.social {
    position: absolute;
    top: 12px;
    right: 0;
  }
 
- .social a {
+.social a {
    /* tamanho da imagem */
    height: 32px;
    width: 32px;
@@ -152,19 +152,19 @@ footer .container {
    text-indent: -9999px;  
  }
 
- .social a[href*="facebook.com"] {
+.social a[href*="facebook.com"] {
    background-image: url(../img/facebook.png);
  }
 
- .social a[href*="twitter.com"] {
+.social a[href*="twitter.com"] {
    background-image: url(../img/twitter.png);
  }
 
- .social a[href*="plus.google.com"] {
+.social a[href*="plus.google.com"] {
    background-image: url(../img/googleplus.png);
  }
 
- .social li {
+.social li {
    float: left;
    margin-left: 25px;
  }
