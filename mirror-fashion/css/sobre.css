@@ -71,6 +71,18 @@ footer {
    position: absolute;
  }
 
+p::first-letter {
+   font-weight: bold;
+}
+
+h1 + p {
+   text-indent: 0;
+}
+
+:not(p) + p::first-line {
+   font-variant: small-caps;
+}
+
 
 /*
 footer {
@@ -85,3 +97,43 @@ footer img {
      width: 94px;
  }
 */
+
+@media (max-width: 939px) {
+
+  article {
+   text-align: center;
+   width: 100%;
+ }
+
+  body {
+   text-align: center;
+   width: auto;
+ }
+
+ h1 {
+   text-align: center;
+   width: auto;
+ }
+
+ h2 {
+   text-align: center;
+   width: auto;
+ }
+
+ figure {
+   width: auto;
+   position: static;
+ }
+
+ #centro-distribuicao {
+   width: auto;
+   position: static;
+ }
+
+  footer {
+   width: auto;
+   position: static;
+ }
+
+}
+
