@@ -89,7 +89,7 @@ body {
  }
 
  .pause,
-    .play {
+ .play {
       display: block;
       position: absolute;
       right: 15px;
@@ -154,7 +154,6 @@ body {
  }
 
 footer {
-   color: #777;
    background-image: url(../img/fundo-rodape.png);
    clear: both;
    padding: 20px 0;

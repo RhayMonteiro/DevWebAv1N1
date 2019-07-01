@@ -126,8 +126,10 @@ footer img {
  }
 
  #centro-distribuicao {
-   max-width: 100%;
+   max-width: "100%";
    position: static;
+   width: auto;
+   height: auto;
  }
 
   footer {

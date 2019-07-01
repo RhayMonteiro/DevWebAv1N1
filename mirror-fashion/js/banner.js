@@ -9,7 +9,9 @@ var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
 
      var controle = document.querySelector('.pause');
 
-    controle.onclick = function() {
+     setInterval(trocaBanner, 4000);
+    
+     controle.onclick = function() {
         if (controle.className == 'pause') {
             clearInterval(timer);
             controle.className = 'play';
@@ -20,3 +22,4 @@ var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
 
         return false;
     }
+    
